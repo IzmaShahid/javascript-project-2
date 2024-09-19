@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+        }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    input{
+        background-color: rgb(255, 255, 255);
+    }
+    </style>
+</head>
+<body>
+ 
+ <h1>PRINT TABLE</h1>
+    <label for="numToPrint">Which table do you want to print</label>
+    <input type="number" id="numToPrint">
+
+    <label for="minLength">Number to start Table</label>
+    <input type="number" id="minLength">
+
+    <label for="maxLength">Number to end Table</label>
+    <input type="number" id="maxLength">
+
+    <button onclick="printTable()">Print Table</button>
+    <button onclick="refreshPage()">Refresh</button>
+
+    <p id="displayTable"></p>
+
+    <script src="script.js"></script>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
